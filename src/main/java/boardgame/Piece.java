@@ -12,4 +12,14 @@ public class Piece {
         return board;
     }
 
+    public boolean possibleMoves(){
+        return true;
+    }
+    public boolean possibleMove(Position position){
+        return true;
+    }
+    public boolean isThereAnyPossibleMove(){
+        return true;
+    }
+
 }
